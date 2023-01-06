@@ -73,7 +73,7 @@ function clickSubmit() {
     }
     let n9FromEnd = telNumbers[telNumbers.length - 9];
     if ( +n9FromEnd === 0) {
-        alert("9-я с конца цифр не должна быть 0");
+        alert("9-я с конца цифр номера телефона не должна быть 0");
         return;
     }
 
